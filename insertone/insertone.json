@@ -1,0 +1,26 @@
+#insertOne.js
+
+db.grades.insertOne({
+  student_id: 445334321,
+  products: [
+    {
+      name:"payal",
+      address:" 60 church street, new jersey",
+      type: "exam",
+      score: 900,
+    },
+    {
+      type: "homework",
+      score: 589,
+    },
+    {
+      type: "quiz",
+      score: 795,
+    },
+    {
+      type: "homework",
+      score: 488,
+    },
+  ],
+  class_id: 550,
+})
