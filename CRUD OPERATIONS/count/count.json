@@ -1,0 +1,4 @@
+
+
+db.trips.countDocuments();
+db.trips.countDocuments({tripduration: {$gt: 120}, bikeid: 23993});
